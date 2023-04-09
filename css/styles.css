@@ -1,0 +1,115 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+.flex{
+	display: flex;
+}
+.column-flex{
+	flex-direction: column;
+}
+.row-flex{
+	flex-direction: row;
+}
+/* header styles */
+.header{
+	border-bottom: 1px solid gray;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: aliceblue;
+}
+.header-content{
+	margin-left: 10%;
+	margin-right: 10%;
+	align-items: center;
+}
+.logo{
+	width: 80px;
+	height: 80px;
+}
+.text{
+	margin-left: 20px;
+	font-size: 32px;
+}
+/* body styles */
+.body{
+	
+	padding-top: 40px;
+	border-bottom: 1px solid gray;
+}
+.body-content{
+	align-items: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.form{
+	width: 30%;
+	height: 100px;
+	justify-content: space-around;
+}
+.input-text{
+	margin-left: 30%;
+	margin-right: 30%;
+	font-size: 20px;
+	text-align: center;
+}
+.input-submit{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 32%;
+	margin-right: 32%;
+	font-size: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border: 1px solid gray;
+	background-color: aliceblue;
+}
+.appointments{
+	margin-top: 10px;
+	width: 100%;
+}
+.appointment{
+	border: 1px solid gray;
+	padding: 4px;
+	background-color: aliceblue;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	margin-bottom: 20px;
+}
+.doctor{
+	font-size: 20px;
+	font-weight: bold;
+}
+.doctors-info{
+	justify-content: space-between;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.appointment-date{
+	font-style: italic;
+}
+/* description styles */
+.description{
+	padding-top: 20px;
+	background-color: aliceblue;
+}
+.social{
+	align-items: center;
+	margin-bottom: 20px;
+}
+.description-content{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.vk-image{
+	width: 32px;
+	height: 32px;
+}
+.link{
+	margin-left: 20px;
+}
